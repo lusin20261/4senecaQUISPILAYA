@@ -2,8 +2,8 @@
   PALETA DE COLORES
 ======================================*/
 :root {
-    --color-primario: #5b5ff5;
-    --color-secundario: #ff8f70;
+    --color-primario: #f5605b;
+    --color-secundario: #7270ff;
 }
 
 /*======================================
@@ -59,8 +59,8 @@ body {
     text-transform: uppercase;
 
     text-shadow:
-        0 0 10px rgba(255,255,255,.5),
-        0 0 30px rgba(255,255,255,.3);
+        0 0 10px rgba(235, 14, 14, 0.5),
+        0 0 30px rgba(13, 28, 238, 0.3);
 
     animation: flotar 3s ease-in-out infinite;
 }
@@ -84,14 +84,14 @@ main {
   TARJETAS
 ======================================*/
 .card {
-    background: white;
+    background: rgb(11, 243, 111);
 
     margin-bottom: 30px;
     padding: 30px;
 
     border-radius: 20px;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    box-shadow: 0 10px 25px rgba(237, 214, 3, 0.15);
 
     transition: .3s;
 }
@@ -135,9 +135,9 @@ footer {
 
     padding: 25px;
 
-    color: white;
+    color: rgb(9, 16, 236);
 
-    background: rgba(0,0,0,.15);
+    background: rgba(250, 10, 10, 0.15);
 
     backdrop-filter: blur(5px);
 }
